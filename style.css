@@ -1,0 +1,44 @@
+html {
+  color-scheme: light dark;
+  box-sizing: border-box;
+}
+
+body {
+  width: 35em;
+  margin: 0 auto;
+  font-family: Garamond, serif;
+}
+
+main {
+  display: flex;
+  gap: 2em;
+}
+
+.socials {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+}
+
+.socials h2 {
+  font-size: large;
+  margin: 0 auto 0.25em auto;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.socials img {
+  width: 2em;
+}
+
+.chris-pixel {
+  width: 8em;
+  height: 8em;
+  border-radius: 25%;
+  border: 0.25em solid black;
+}
